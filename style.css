@@ -51,10 +51,14 @@ body {
 
 .timeline-list li {
   background-color: orange;
-  width: calc( 50% - 80px );
+  width: auto;
   padding: 40px;
 }
 
+.timeline-list li:nth-child(odd) {
+  margin-right: 50%;
+}
+
 .timeline-list li:nth-child(even) {
-  margin-left: auto;
+  margin-left: 50%;
 }
