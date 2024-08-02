@@ -1,6 +1,11 @@
 /* Resets */
-body {
+body, ol {
   margin: unset;
+  padding: unset;
+}
+
+li {
+  list-style-type: none;
 }
 
 h1 {
