@@ -1,3 +1,25 @@
+/* Resets */
+body {
+  margin: unset;
+}
+
+/* Typography */
 :root {
   font-family: "Montserrat", sans-serif;
 }
+
+/* Layouts */
+.l_wrapper {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+/* Components */
+body {
+  background-color: dodgerblue;
+}
+
+.timeline {
+  background-color: rgb( 255 255 255 / .4 );
+}
+
