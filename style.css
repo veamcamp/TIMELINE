@@ -21,8 +21,16 @@ h1 {
 
 /* Layouts */
 .l_wrapper {
-  width: 1200px;
+
+  /* max-width: 1200px -> 최대 사이즈를 1200px로 제한 */
+  /* 즉 작아질 수 는 있다. */
+  max-width: 1200px;
+
+  /* width: auto -> 가득 차려고 노력 */
+  width: auto;
+
   margin: 0 auto;
+  padding: 0 40px;
 }
 
 /* Components */
