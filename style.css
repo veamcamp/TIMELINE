@@ -52,6 +52,7 @@ body {
 .timeline-list li {
   background-color: orange;
   width: 50%;
+  padding: 40px;
 }
 
 .timeline-list li:nth-child(even) {
