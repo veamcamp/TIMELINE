@@ -49,3 +49,11 @@ body {
   box-shadow: inset 0 0 20px purple;
 }
 
+.timeline-list li {
+  background-color: orange;
+  width: 50%;
+}
+
+.timeline-list li:nth-child(even) {
+  margin-left: auto;
+}
